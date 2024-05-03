@@ -49,3 +49,67 @@ body{
     height: 7vmin;
     width: 22vmin;
 }
+
+@media screen and (max-width:680px){
+    .reset{
+    height: 5vmin;
+    width: 18vmin;
+    font-size: 15px;
+    }
+    .button{
+    height: 13vmin;
+    width: 13vmin;
+    font-size: 35px;
+    }
+    .main{
+        height: 40vh;
+    }
+}
+@media screen and (max-width:550px){
+    .button{
+    height: 12vmin;
+    width: 11vmin;
+    font-size: 30px;
+    }
+    .main{
+        height: 35vh;
+    }
+    .reset{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:450px){
+    .button{
+    height: 11vmin;
+    width: 10vmin;
+    font-size: 22px;
+    }
+    .main{
+        height: 25vh;
+    }
+    .reset{
+        font-size: 10px;
+    }
+    body{
+        gap: 1.5rem;
+    }
+}
+@media screen and (max-width:400px){
+    .button{
+    height: 11vmin;
+    width: 10vmin;
+    font-size: 20px;
+    }
+    .main{
+        height: 20vh;
+    }
+    .reset{
+        font-size: 10px;
+    }
+    body{
+        gap: 2.5rem;
+    }
+}
