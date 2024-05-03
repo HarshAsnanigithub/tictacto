@@ -104,16 +104,13 @@ body{
     height: 11vmin;
     width: 10vmin;
     font-size: 20px;
-    border-radius:none;
-    }
-    .main{
-        height: 20vh;
+    border-radius:0.2rem;
     }
     .reset{
         font-size: 10px;
-        border-radius:none;
+        border-radius:0.2rem;
     }
     body{
-        gap: 2.5rem;
+        gap: 2rem;
     }
 }
