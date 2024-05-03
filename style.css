@@ -86,12 +86,14 @@ body{
     height: 11vmin;
     width: 10vmin;
     font-size: 22px;
+    border-radius:0.5rem;
     }
     .main{
         height: 25vh;
     }
     .reset{
         font-size: 10px;
+        border-radius:0.5rem;
     }
     body{
         gap: 1.5rem;
