@@ -13,9 +13,6 @@ body{
 }
 .main{
     height: 50vh;
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-gap: 5px;
 }
 .button{
     background-color: white;
@@ -86,11 +83,13 @@ body{
     height: 11vmin;
     width: 10vmin;
     font-size: 22px;
-    border-radius:0.5rem;
+    border-radius: 0.5rem;
+    }
+    .main{
+        height: 25vh;
     }
     .reset{
         font-size: 10px;
-        border-radius:0.5rem;
     }
     body{
         gap: 1.5rem;
@@ -101,13 +100,14 @@ body{
     height: 11vmin;
     width: 10vmin;
     font-size: 20px;
-    border-radius:0.2rem;
+    }
+    .main{
+        height: 20vh;
     }
     .reset{
         font-size: 10px;
-        border-radius:0.2rem;
     }
     body{
-        gap: 2rem;
+        gap: 2.5rem;
     }
 }
